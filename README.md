@@ -17,7 +17,7 @@ https://www.npmjs.com/package/espz
 
 ### Making ESP8266 talk to the desk
 
-From there, I found Stefan's exceptional reverse-engineered protocol description. With that information in hand, I wrote up some JavaScript for the microcontroller that listens for data from the desk's motor controller and can send it commands like UP/DOWN/M1/M2/etc:
+From there, I found [Stefan's exceptional reverse-engineered protocol description](https://github.com/Stefichen5/AutonomousControl). With that information in hand, I wrote up some JavaScript for the microcontroller that listens for data from the desk's motor controller and can send it commands like UP/DOWN/M1/M2/etc:
 https://gist.github.com/developit/d610e45a522810b5287db61e554ae9c9#file-desk-js
 
 ### Making the desk talk to the ESP8266 (for longer than 2 seconds)
