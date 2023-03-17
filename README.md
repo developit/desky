@@ -12,8 +12,8 @@ Then I bought an [ESP8266 chip from Amazon](https://www.amazon.com/Aceirmc-ESP82
 
 ### Detour: bundling and minifying the JS before flashing
 
-I got a little into the weeds and built a whole Rollup-based bundler + command-line flashing tool instead of using the IDE because I wanted to squeeze *a lot* more code onto the device. It's called `espz` ([video](https://twitter.com/_developit/status/1367657018174148618)) - you can try it out if you're daring, the only requirement is that you've flashed the Espruino base image (kinda like an OS) using their guide. It can even send code to the chip over wifi! The npm package has some docs:
-https://www.npmjs.com/package/espz
+I got a little into the weeds and built a whole Rollup-based bundler + command-line flashing tool instead of using the IDE because I wanted to squeeze *a lot* more code onto the device. It's called [espz](https://github.com/developit/espz) ([video](https://twitter.com/_developit/status/1367657018174148618)) - you can try it out if you're daring, the only requirement is that you've flashed the Espruino base image (kinda like an OS) using their guide. It can even send code to the chip over wifi! The package is on npm and source is on GitHub:
+https://github.com/developit/espz
 
 ### Making ESP8266 talk to the desk
 
